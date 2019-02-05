@@ -28,8 +28,6 @@ header {
     margin-bottom: 25px;
     border-bottom: solid #cccccc .5px;
     height: 100px;
-    
-    
 }
 
 .header-box {
@@ -40,7 +38,7 @@ header {
 
 ul {
     position: absolute;
-    right: -20px;
+    right: -24px;
     top: 60px;
     list-style-type: none;
     margin: 0;
@@ -49,14 +47,27 @@ ul {
 
 li {
     float: left;
+    font-size: 14px;
 }
 
 .nav {
     display: block;
-    padding: 5px;
+    padding: 3px 8px;
     text-decoration: none;
     color: #777777;
+    opacity: .8;
 }
+
+.nav:hover {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+#portfolio {
+    border-left: .1px solid #dddddd;
+    border-right: .1px solid #dddddd;
+}
+
 
 h1 {
     background-color: #4aaaa5;
@@ -74,7 +85,7 @@ h1 {
 main {
     width: 909px;
     background-color: #ffffff;
-    border: solid #dddddd .5px;
+    border: .5px solid #dddddd;
     position: relative;
     margin: 0 auto;
     padding: 25px;
@@ -98,7 +109,6 @@ h2 {
     float: left;
     margin-right: 20px;
     position: relative;
-    
 }
 
 p {
@@ -112,7 +122,6 @@ input {
     padding: 5px;
     margin: 5px 5px 5px 0px;
     box-sizing: border-box;
-    
 }
 
 
