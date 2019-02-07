@@ -161,6 +161,10 @@ button:hover {
     text-decoration: none;
 }
 
+.project:hover {
+    opacity: .6;
+}
+
 .Project_title {
     display: block;
     height: 12px;
