@@ -1,70 +1,124 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-    <meta charset="UTF-8"/>
-    <title>Kathleen Montesano</title>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8" />
+  <title>Kathleen Montesano</title>
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Monoton" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <style>
+    li:hover {
+      background-color: #4ECDC4;
+      border-radius: 3px;
+      border: 2px solid white;
+    }
+    
+    .active {
+      background-color: #1A535C;
+      border-radius: 3px;
+      border: 2px solid white;
+    }
+
+    .project:hover {
+      opacity: .6;
+      text-decoration: none;
+    }
+
+    .project {
+      filter: grayscale(100%);
+    }
+  </style>
 </head>
 
-<body>
-  <header>
-    
-    <div class="header-box">
-    
-      <h1>Kathleen Montesano</h1>
-    
-    <nav>
-      <ul>
-          <li>
-            <a href="index.html" class="nav">About</a>
-          </li>
-          <li>
-            <a href="#" class="nav" id="portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="contact.html" class="nav">Contact</a>
-          </li>
-      </ul>
-    </nav>
+<body style="background-image: url(images/crossline-dots.png)">
+  <nav class="navbar bg-dark" style="border-bottom: 30px solid #EA2B1F;">
+
+    <div class="navebar-header navbar-text">
+      <h1 class="text-white" style="font-family: 'Fugaz One', cursive;">Kathleen Montesano</h1>
     </div>
-</header>
-  
-  <main>
-      <h2>Portfolio</h2> 
-    
-      
-      <div class="gallery">
-          
-        <a href="../Word-Guess-Game/index.html" target="_blank" class="project">
-            <img src="../Word-Guess-Game/assets/images/tl-horizontal_main_2x.jpg" height="200"/>
-            <p class="Project_title">Bowie Hangman</p>
-        </a>
 
-        <a href="../unit-4-game/index.html" target="_blank" class="project">
-            <img src="../unit-4-game/assets/images/D1061_219_088_1200.jpg" height="200"/>
-            <p class="Project_title">Fruit Game</p>
-        </a>
+    <div class="navbar-right">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="index.html" class="text-white nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="active text-white nav-link"> Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="text-white nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-        <a href="#" target="_blank" class="project">
-            <img src="./assets/images/placeholder3.jpg" width="300"/>
-            <p class="Project_title">Trivia Game</p>
-        </a>
-
-        <a href="#" target="_blank" class="project">
-            <img src="./assets/images/placeholder4.jpg" width="300"/>
-            <p class="Project_title">Rutgers Info Widget</p>
-        </a>
-
-        <a href="#" target="_blank" class="project">
-            <img src="./assets/images/placeholder5.jpg" width="300"/>
-            <p class="Project_title">Rock Paper Scissors</p>
-        </a>
+  <main class="container text-white mx-auto m-5 p-1 mb-7 rounded" style="background-color: #1A535C;">
+    <!-- heading -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="m-5 p-2 border border-white rounded">Portfolio</h2>
       </div>
-    </main>  
+    </div>
+
+    <!-- gallery row 1 -->
+    <div class="row">
+      <div class="col-md-6 text-center">
+      <a href="../Word-Guess-Game/index.html" target="_blank" class="project">
+        <img src="../Word-Guess-Game/assets/images/tl-horizontal_main_2x.jpg" width="300" class="img-thumbnail"/>
+        <p class="text-white">Hangman</p>
+      </a>
+      </div>
       
-    <footer>
-      <div class="copy">&copy;Copyright</div>
-    </footer>
-  
+      <div class="col-md-6 text-center">
+      <a href="../unit-4-game/index.html" target="_blank" class="project"> 
+        <img src="../unit-4-game/assets/images/D1061_219_088_1200.jpg" width="300" class="img-thumbnail"/>
+        <p class="text-white">Fruit Game</p>
+      </a>
+      </div>
+      </div>
+
+      <!-- Gallery row 2 -->
+      <div class="row">
+      <div class="col-md-6 text-center">
+          <a href="#" target="_blank" class="project">
+            <img src="./images/placeholder3.jpg" width="300" class="img-thumbnail"/>
+            <p class="text-white text-center">Trivia Game</p>
+          </a>
+      </div>
+
+      <div class="col-md-6 text-center">
+          <a href="#" target="_blank" class="project">
+            <img src="./images/placeholder4.jpg" width="300" class="img-thumbnail" />
+            <p class="text-white text-center">Rutgers Info Widget</p>
+          </a>
+      </div>
+      </div>
+
+      <!-- Gallery row 3 -->
+      <div class="row">
+      <div class="col-md-6 text-center">
+      <a href="#" target="_blank" class="project">
+        <img src="./images/placeholder5.jpg" width="300" class="img-thumbnail"/>
+        <p class="text-white text-center">Rock Paper Scissors</p>
+      </a>
+      </div>
+      </div>
+  </main>
+
+
+  <footer class="footer fixed-bottom p-2" style="background-color: #4ECDC4;">
+    <div class="text-white text-center">&copy;Copyright</div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
