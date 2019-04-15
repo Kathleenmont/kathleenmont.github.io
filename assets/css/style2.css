@@ -83,7 +83,7 @@ h1 {
 .gallery {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
     grid-gap: 10px;
     align-items: center;
     justify-items: center;
@@ -182,6 +182,14 @@ a {
 #project4 {
     grid-column: 2/3;
     grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 15% 15%;
+}
+
+#project5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 70% 15% 15%;
