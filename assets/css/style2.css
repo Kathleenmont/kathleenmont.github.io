@@ -9,6 +9,8 @@ body {
   line-height: 1.25;
 }
 
+
+
 header {
   background-image: url("../images/stripes.jpg");
   background-repeat: no-repeat;
@@ -303,6 +305,9 @@ footer {
   bottom: -100px;
   margin-left: -0px;
   margin-right: -0px;
+  /* display: grid; */
+  /* grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%; */
+ 
 }
 
 .copy {
@@ -311,7 +316,23 @@ footer {
   color: black;
   position: relative;
   bottom: -25px;
+  grid-column: 5/7;
+  width: 100px;
+  position: relative;
+  margin: 0 auto;
 }
+/* 
+#github-footer {
+  grid-column: 10/11;
+}
+
+#linkedIn-footer {
+  grid-column: 9/10;
+}
+
+#resume-footer {
+  grid-column: 8/9;
+} */
 
 .footer-icon {
   width: 40px;

@@ -189,6 +189,8 @@ footer {
     height: 45px;
     position: absolute;
     bottom: -10px;  
+    display: grid;
+    
 }
 
 .copy {
