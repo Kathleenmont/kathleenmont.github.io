@@ -85,7 +85,7 @@ h1 {
 .gallery {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 33.3% 33.3% 33.3%;
+  grid-template-rows: 25% 25% 25% 25%;
   grid-gap: 10px;
   align-items: center;
   justify-items: center;
@@ -239,6 +239,14 @@ a {
   grid-template-rows: 70% 15% 15%;
 }
 
+#project7 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70% 15% 15%;
+}
+
 /* contact page _______________________________________________*/
 #contact-info {
   text-align: center;
@@ -305,9 +313,6 @@ footer {
   bottom: -100px;
   margin-left: -0px;
   margin-right: -0px;
-  /* display: grid; */
-  /* grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%; */
- 
 }
 
 .copy {
@@ -321,18 +326,6 @@ footer {
   position: relative;
   margin: 0 auto;
 }
-/* 
-#github-footer {
-  grid-column: 10/11;
-}
-
-#linkedIn-footer {
-  grid-column: 9/10;
-}
-
-#resume-footer {
-  grid-column: 8/9;
-} */
 
 .footer-icon {
   width: 40px;
