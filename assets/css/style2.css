@@ -247,6 +247,14 @@ a {
   grid-template-rows: 70% 15% 15%;
 }
 
+#project8 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70% 15% 15%;
+}
+
 /* contact page _______________________________________________*/
 #contact-info {
   text-align: center;
