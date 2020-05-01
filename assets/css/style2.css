@@ -410,6 +410,7 @@ footer {
     grid-column: 1/2;
     grid-row: 2/3;
     margin-top: 20px;
+    margin-bottom: 100px;
   }
 }
 @media screen and (max-width: 845px) {
